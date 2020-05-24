@@ -18,6 +18,8 @@ defmodule Oscarex.MixProject do
   end
 
   defp deps do
-    []
+    [
+      {:mix_test_watch, "~> 1.0", only: :dev, runtime: false}
+    ]
   end
 end
